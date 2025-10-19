@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+  <title>Leaflet Simple Visor</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <!-- MarkerCluster CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <!-- Local style (nota: el archivo se llama Style.css en el proyecto) -->
+  <link rel="stylesheet" href="Style.css" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <!-- MarkerCluster JS -->
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+</head>
+
+
+
+</head>
+<body>
+  <header>
+    <h1>Leaflet Simple Visor</h1>
+  </header>
+  <div id="map"></div>
+  <script src="map.js"></script>
+
+  <div id="welcomeModal" class="modal">
+    <div class="modal-content">
+      <h2>Basic exercise with Leaflet</h2>
+      <p>
+        This viewer is a basic example of how to use  <strong>Leaflet</strong>, which:
+      </p>
+      <ul>
+        <li>Loads a <strong>GeoJSON</strong> file.</li>
+        <li>Consumes a <strong>WMS</strong> service.</li>
+        <li>Interactively displays geographic information through pop-ups.</li>
+      </ul>
+      <button id="closeModal">Entendido</button>
+    </div>
+  </div>
+
+  <footer>
+    By: Ricardo Martinez 
+  </footer>
+
+</body>
+</html>
